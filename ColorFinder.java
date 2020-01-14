@@ -45,8 +45,14 @@ public class ColorFinder extends Application
         	}
     	});
     	sliderRed = new Slider(0, 255, 0);
+        sliderRed.setShowTickMarks(true);
+        sliderRed.setShowTickLabels(true);
     	sliderGreen = new Slider(0, 255, 0);
+        sliderGreen.setShowTickMarks(true);
+        sliderGreen.setShowTickLabels(true);
     	sliderBlue = new Slider(0, 255, 0);
+        sliderBlue.setShowTickMarks(true);
+        sliderBlue.setShowTickLabels(true);
 	}
 
 	@Override
